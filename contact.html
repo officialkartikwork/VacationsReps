@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Vacations Reps - Get in touch with our B2B travel solutions team. Partner with us for premium destination services.">
+    <title>Contact Us - Vacations Reps</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="navigation-header">
+        <div class="container">
+            <nav class="nav-wrapper">
+                    <a href="index.html" class="navigation-logo">
+                    <img class="img-logo" src="assets/vrlogo.png" alt="Vacations Reps Logo">
+                    <span class="logo-text">Vacations Reps</span></a>                  
+                <ul class="navigation-menu" id="navMenu">
+                    <li><a href="index.html" class="navigation-link active">Home</a></li>
+                    <li><a href="destination.html" class="navigation-link">Destinations & Packages</a></li>
+                    <li><a href="gallary.html" class="navigation-link">Gallery</a></li>
+                    <li><a href="FAQ.html" class="navigation-link">FAQ</a></li>
+                </ul>
+                
+                <div class="navigation-utilities">
+                    <a href="contact.html" class="btn-primary-small">Get in Touch</a>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero-contact">
+        <div class="container">
+            <h1 class="hero-large fade-in">Let's Connect</h1>
+            <p class="hero-subtitle fade-in-delay" style="color: var(--bg-primary);">Partner with us to deliver exceptional travel experiences</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2 class="heading-2">Send Us a Message</h2>
+                    <p class="body-regular">Fill out the form below and our team will get back to you within 24 hours.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" required>
+                            <span class="form-error" id="phoneError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="agency" class="form-label">Travel Agency Name</label>
+                            <input type="text" id="agency" name="agency" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination" class="form-label">Interested Destination</label>
+                            <select id="destination" name="destination" class="form-input">
+                                <option value="">Select a destination</option>
+                                <option value="thailand">Thailand</option>
+                                <option value="malaysia">Malaysia</option>
+                                <option value="dubai">Dubai</option>
+                                <option value="singapore">Singapore</option>
+                                <option value="bali">Bali</option>
+                                <option value="vietnam">Vietnam</option>
+                                <option value="multiple">Multiple Destinations</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn-primary">Send Message</button>
+                        <div id="formSuccess" class="form-success" style="display: none;">Thank you! We'll be in touch soon.</div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-card">
+                        <h3 class="heading-3">Get in Touch</h3>
+                        <p class="body-regular">We're here to help you create unforgettable travel experiences for your clients.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <h4 class="contact-detail-label">Phone</h4>
+                                <p class="body-regular"><a href="tel:+918826358357">+91 8826358357</a></p>
+                                <p class="body-regular"><a href="tel:+918287030371">+91 8287030371</a></p>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <h4 class="contact-detail-label">Email</h4>
+                                <p class="body-regular"><a href="mailto:vacationsreps@gmail.com">vacationsreps@gmail.com</a></p>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <h4 class="contact-detail-label">Office Address</h4>
+                                <p class="body-regular">222, Ground Floor, Block A1<br>IGNOU Main Road, Neb Sarai<br>New Delhi – 110068</p>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <h4 class="contact-detail-label">Follow Us</h4>
+                                <div class="social-links">
+                                    <a href="https://instagram.com/vacationsreps" target="_blank" rel="noopener" class="social-link-button">Instagram</a>
+                                    <a href="https://facebook.com/vacationsreps" target="_blank" rel="noopener" class="social-link-button">Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Founder Section -->
+                    <div class="founder-card">
+                        <div class="founder-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #ebeade 0%, #f6f5e8 100%); height: 200px; width: 200px; border-radius: 0px; display: flex; align-items: center; justify-content: center; color: #bcbbb4; margin: 0 auto;">
+                            <img src="assets/founder.jpg" alt="Founder Image" style="width:100%; height:100%; object-fit:cover; display:block;">
+                            </div>
+                        </div>
+                        <div class="founder-info">
+                            <h3 class="heading-3">Meet Our Founder</h3>
+                            <p class="body-regular">Leading Vacations Reps with a vision to transform B2B travel partnerships and deliver exceptional experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-padding map-section">
+    <div class="container">
+        <div class="map-placeholder">
+            <iframe
+                src="https://www.google.com/maps?q=222,+Ground+Floor,+Block+A1,+IGNOU+Main+Road,+Neb+Sarai,+New+Delhi+110068&z=16&output=embed"
+                width="100%"
+                height="400"
+                style="border:1px solid #bcbbb4; border-radius: 8px;"
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <div style="margin-top:16px; text-align:center;">
+            <a href="https://maps.app.goo.gl/NPxp33RxUAwZxM617"
+               target="_blank"
+               style="display:inline-block; padding:12px 28px; background: var(--bg-primary); color: #333333; font-family: 'Inter'; text-decoration:none; border-radius:30px;">
+                Open in Google Maps
+            </a>
+        </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-title">Vacations Reps</h3>
+                    <p class="footer-text">Leading B2B travel solutions provider partnering with travel agents across India.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations & Packages</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-contact">
+                        <li><a href="tel:+918826358357">+91 8826358357</a></li>
+                        <li><a href="tel:+918287030371">+91 8287030371</a></li>
+                        <li><a href="mailto:vacationsreps@gmail.com">vacationsreps@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">Office</h4>
+                    <p class="footer-text">222, Ground Floor, Block A1<br>IGNOU Main Road, Neb Sarai<br>New Delhi – 110068</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://instagram.com/vacationsreps" target="_blank" rel="noopener" class="social-link">Instagram</a>
+                    <a href="https://facebook.com/vacationsreps" target="_blank" rel="noopener" class="social-link">Facebook</a>
+                </div>
+                <p class="footer-copyright">© Kartik Kumar | work@kartikk@gmail.com | 7061968428.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
