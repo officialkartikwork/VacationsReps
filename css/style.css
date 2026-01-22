@@ -440,7 +440,7 @@ body {
     text-align: center;
     padding: 120px 40px 80px;
     position: relative;
-    background-image: url("/Users/kartik/Desktop/Kartik/CODE/VacationsReps-Site/assets/front1.jpg"); 
+    background-image: url("/assets/front1.jpg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -698,7 +698,7 @@ body {
 .page-hero-contact {
     padding: 120px 40px 80px;
     text-align: center;
-    background-image: url("/Users/kartik/Desktop/Kartik/CODE/VacationsReps-Site/assets/contact.jpg"); 
+    background-image: url("/assets/contact.jpg"); 
     background-size: cover;
     background-position: center;
 }
@@ -706,7 +706,7 @@ body {
 .page-hero-gallary {
     padding: 120px 40px 80px;
     text-align: center;
-    background-image: url("/Users/kartik/Desktop/Kartik/CODE/VacationsReps-Site/assets/travelgallary.jpg");     
+    background-image: url("/assets/travelgallary.jpg");     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;}
@@ -714,7 +714,7 @@ body {
 .page-hero-destination {
     padding: 120px 40px 80px;
     text-align: center;
-    background-image: url("/Users/kartik/Desktop/Kartik/CODE/VacationsReps-Site/assets/destination.jpg"); 
+    background-image: url("/assets/destination.jpg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;}
@@ -722,7 +722,7 @@ body {
 .page-hero-FAQ {
     padding: 120px 40px 80px;
     text-align: center;
-    background-image: url("/Users/kartik/Desktop/Kartik/CODE/VacationsReps-Site/assets/FAQ2.jpg");     
+    background-image: url("/assets/FAQ2.jpg");     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;}
